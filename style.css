@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.boss{
+    margin-top: -10vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #cceeff, #003366);
+
+    min-height: 100vh;
+}
+
+.head {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10vh; */
+}
+
+.container {
+    /* background-color: blue; */
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+    /* margin: auto; */
+    margin-top: 5vh;
+}
+
+.insidebox {
+    border-radius: 5vh;
+    border: 4px solid black;
+    /* background-color: black; */
+    height: 25vh;
+    width: 25vh;
+    margin: 3px;
+    /* margin-left: 4vh; */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 6vh;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    /* margin-left: 4vh; */
+    margin-top: 5vh;
+    color: purple;
+    border-radius: 2vh;
+
+}
+.boss{
+    display: flex;
+    flex-direction: column;
+    
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2 {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width: 600px) {
+    .boss{
+        display: flex;
+        flex-direction: column;
+        
+
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .insidebox {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 8vw;
+    }
+
+    button {
+        width: 50vw;
+        height: 8vh;
+        font-size: large;
+    }
+}
